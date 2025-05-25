@@ -19,7 +19,6 @@ func getIndex() (bleve.Index, error) {
 	if err != nil {
 		if err == bleve.ErrorIndexPathDoesNotExist {
 			indexMapping := bleve.NewIndexMapping()
-			indexMapping.DefaultSearchField
 			index, err = bleve.New(indexPath, indexMapping)
 			if err != nil {
 				return nil, err
