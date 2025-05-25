@@ -1,0 +1,24 @@
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+go.work
+
+# data folders
+downloads/*
+data/*
+
+# main config file
+dojer.yaml
+
+# files for testing
+run.sh
+watch.sh
+dojer
+
+# frontend
+ui/node_modules
+ui/dist
